@@ -378,3 +378,14 @@ padding: 10px;
 .footer-img{
     padding: 10px;
 }
+
+@media (max-width: 1160px){
+    .container{
+     width: 900px;
+    }
+}
+@media(max-width: 1040px){
+    .container{
+        w
+    }
+} 
