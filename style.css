@@ -814,8 +814,46 @@ padding: 10px;
     .sector-img{
         width:400px ;
     }
+    .segment{
+    
+        align-items: center;
+        margin-left: 20px;
+    
+    }
+    .segment-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .segment-img{
+        align-items: center;
+        width: 140px;
+    }
     .main-title{
         font-size: 17px;
+    }
+    
+    .box-text{
+        color: green;
+        margin-bottom: 10px;
+    }
+    .box-img{
+        
+        margin-top: 22px;
+        
+    }
+
+    .box-list{
+          padding: 10px;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           border: 2px solid darkblue;
+           width: 150px;
+           height: 150px;
+           margin-bottom: 10px;
     }
     .main-icon{
         width: 30px;
@@ -922,6 +960,25 @@ padding: 10px;
     .footer-title{
         font: 20px;
     }
+
+    .title-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .list-footer{
+        display: none;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+        color: blueviolet;
+        font-size: 50px;
+    }
+
 }
 
 
